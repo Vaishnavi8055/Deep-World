@@ -6,7 +6,7 @@
 
 .header-1 {
     height: 40rem;
-    background-image: url(../images/Horror_Skull_in_Jungle_4K_Wallpaper.jpg);
+    background-image: url(images/Horror_Skull_in_Jungle_4K_Wallpaper.jpg);
     background-size: cover;
     background-position-y: -300px;
     background-attachment: fixed;
@@ -37,7 +37,7 @@
 }
 
 .carousel-item {
-    background-image: url(../images/Background-check.jpg);
+    background-image: url(images/Background-check.jpg);
     background-position-y: -300px;
     background-attachment: fixed;
     background-size: cover;
@@ -56,7 +56,7 @@
 }
 
 .about-card {
-    background-image: url(../images/Background-3.jpg);
+    background-image: url(images/Background-3.jpg);
     background-position-y: -300px;
     background-attachment: fixed;
     background-size: cover;
@@ -131,7 +131,7 @@
 /* footer */
 
 footer {
-    background-image: url(../images/Background-check.jpg);
+    background-image: url(images/Background-check.jpg);
     width: 100vw;
 }
 
