@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-1 {
+    height: 40rem;
+    background-image: url(../images/Horror_Skull_in_Jungle_4K_Wallpaper.jpg);
+    background-size: cover;
+    background-position-y: -300px;
+    background-attachment: fixed;
+    padding-top: 9px;
+}
+
+#section-1 .heading {
+    font-weight: bolder;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 5px red;
+    text-align: center;
+    margin-top: 18rem;
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    background-color: blue;
+    transition: 0.5s;
+}
+
+.navbar {
+    top: 0;
+    /* overflow: hidden; */
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.carousel-item {
+    background-image: url(../images/Background-check.jpg);
+    background-position-y: -300px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 42rem;
+}
+
+.carousel-item h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 15rem;
+    color: white;
+    text-shadow: 1px 1px 1px yellow;
+}
+
+.about-card {
+    background-image: url(../images/Background-3.jpg);
+    background-position-y: -300px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 42rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1 {
+    height: 65%;
+    width: 28%;
+    border: double 9px blue;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.card-1 h2 {
+    color: white;
+    text-shadow: 2px 2px 1px red;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.card-1 p {
+    color: white;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.card-2 {
+    height: 65%;
+    width: 28%;
+    border: double 9px blue;
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+.card-2 h2 {
+    color: white;
+    text-shadow: 2px 2px 1px red;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.card-2 p {
+    color: white;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* All facts */
+
+
+/* .all-facts {
+    width: 100%;
+    background-image: url(images/Background-Header.jpg);
+    height: 100%;
+} */
+
+
+/* footer */
+
+footer {
+    background-image: url(../images/Background-check.jpg);
+    width: 100vw;
+}
+
+p,
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.sec1 h1 {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 48px;
+    color: white;
+    text-shadow: 3px 3px 3px red, 3px 3px 3px;
+}
+
+.sec1 h2 {
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+
+.link3 span,
+i {
+    color: white;
+}
+
+.link1 {
+    width: 40%;
+}
+
+.link1 p {
+    text-align: justify;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.link2 ul li {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.link3 ul li {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+.sec2 h1 {
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.sec2 li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: black;
+}
+
+.sec2 ul li i {
+    font-size: 24px;
+    line-height: 47px;
+    text-align: center;
+    color: whitesmoke;
+    padding-left: 15px;
+}
+
+.sec2 ul li:nth-child(1):hover {
+    background: #3b5998;
+}
+
+.sec2 ul li:nth-child(2):hover {
+    background: #55acee;
+}
+
+.sec2 ul li:nth-child(3):hover {
+    background: #eb4924;
+}
+
+.sec2 ul li:nth-child(4):hover {
+    background: #3b5998;
+}
+
+.sec3 {
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sec3 p {
+    position: relative;
+    color: deeppink;
+}
+
+.sec3 p::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    background-color: goldenrod;
+    transition: all 0.3s;
+}
+
+.sec3 p:hover::after {
+    width: 100%;
+}
+
+.sec1 a:hover,
+.sec3 a:hover {
+    color: goldenrod;
+}
+
+hr {
+    opacity: 0.2;
+}
